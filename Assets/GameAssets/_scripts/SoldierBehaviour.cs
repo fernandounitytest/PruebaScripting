@@ -27,7 +27,7 @@ public class SoldierBehaviour : MonoBehaviour {
     // private Texture / Texture2D / Texture3D.
     public WeaponBehaviour weaponBehaviour;
     public SoldierBehaviour enemigo;
-    	
+    public GestorPuntuacionBehaviour gp;
 
     // Use this for initialization.
 	void Start ()
@@ -36,6 +36,9 @@ public class SoldierBehaviour : MonoBehaviour {
         tiempoEntreAtaques = 0.1f;
         cmpRigidbody = GetComponent<Rigidbody>();
         ArrancarAtaquesRecurrentes();
+
+        gp = GameObject.Find("GestorPuntuacion").GetComponent<GestorPuntuacionBehaviour>();
+        
     }
 
     // Update is called once per frame.
@@ -96,6 +99,7 @@ public class SoldierBehaviour : MonoBehaviour {
         DetenerAtaquesRecurrentes();
         //this.gameObject.SetActive(false);
         DecirMensaje("Arghh, he muerto");
+        gp.SaveScore();
     }
 
     private void ArrancarAtaquesRecurrentes()
