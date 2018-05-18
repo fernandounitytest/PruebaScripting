@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 18dc972b03930436bb1d5a68686475c9
+timeCreated: 1526456495
+licenseType: Pro
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - prefabSangreGO: {fileID: 1882824274830900, guid: 524381b41c32f28479e72f12f2479e36,
+      type: 2}
+  - prefabSangrePS: {fileID: 198290269794454964, guid: 524381b41c32f28479e72f12f2479e36,
+      type: 2}
+  - enemigo: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
