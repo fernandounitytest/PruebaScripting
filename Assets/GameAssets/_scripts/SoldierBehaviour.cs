@@ -17,6 +17,8 @@ public class SoldierBehaviour : MonoBehaviour {
     //OPCION 2, con ParticleSystem
     public ParticleSystem prefabSangrePS;
 
+    public GameObject brazoDerecho;
+    public GameObject brazoIzquierdo;
 
     private Rigidbody cmpRigidbody;
     private AudioClip dolor;
@@ -42,6 +44,11 @@ public class SoldierBehaviour : MonoBehaviour {
         if (!this.estaVivo)
         {
             cmpRigidbody.transform.Rotate(new Vector3(-0.01f, 0, 0));
+        }
+        if (!enemigo.estaVivo)
+        {
+            brazoDerecho.transform.Rotate(new Vector3(0, -1f, 0));
+            brazoIzquierdo.transform.Rotate(new Vector3(0, -2f, 0));
         }
 	}
 

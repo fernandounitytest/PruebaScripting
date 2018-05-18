@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44750035, g: 0.49745506, b: 0.5753052, a: 1}
+  m_IndirectSpecularColor: {r: 0.4475004, g: 0.49745542, b: 0.5753056, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -354,6 +354,14 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 29, y: -89.801, z: 0.337}
+--- !u!1 &354062111 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: df38d25b6fd39b44eacfb4a2b784547c, type: 3}
+  m_PrefabInternal: {fileID: 511652795}
+--- !u!1 &480476053 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: df38d25b6fd39b44eacfb4a2b784547c, type: 3}
+  m_PrefabInternal: {fileID: 1469794880}
 --- !u!1001 &511652795
 Prefab:
   m_ObjectHideFlags: 0
@@ -512,6 +520,10 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 400012, guid: df38d25b6fd39b44eacfb4a2b784547c, type: 3}
   m_PrefabInternal: {fileID: 511652795}
+--- !u!1 &621227657 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100008, guid: df38d25b6fd39b44eacfb4a2b784547c, type: 3}
+  m_PrefabInternal: {fileID: 511652795}
 --- !u!1 &784416658 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100016, guid: df38d25b6fd39b44eacfb4a2b784547c, type: 3}
@@ -565,6 +577,8 @@ MonoBehaviour:
     type: 2}
   prefabSangrePS: {fileID: 198290269794454964, guid: 524381b41c32f28479e72f12f2479e36,
     type: 2}
+  brazoDerecho: {fileID: 621227657}
+  brazoIzquierdo: {fileID: 354062111}
   weaponBehaviour: {fileID: 1868311005}
   enemigo: {fileID: 2000094083}
 --- !u!1001 &1169837301
@@ -650,6 +664,10 @@ Transform:
   m_Father: {fileID: 511652796}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1242854262 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100008, guid: df38d25b6fd39b44eacfb4a2b784547c, type: 3}
+  m_PrefabInternal: {fileID: 1469794880}
 --- !u!1001 &1469794880
 Prefab:
   m_ObjectHideFlags: 0
@@ -969,5 +987,7 @@ MonoBehaviour:
     type: 2}
   prefabSangrePS: {fileID: 198290269794454964, guid: 524381b41c32f28479e72f12f2479e36,
     type: 2}
+  brazoDerecho: {fileID: 1242854262}
+  brazoIzquierdo: {fileID: 480476053}
   weaponBehaviour: {fileID: 1684036751}
   enemigo: {fileID: 784416663}
